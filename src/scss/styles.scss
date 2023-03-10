@@ -1,0 +1,57 @@
+            
+$theme-colors: (
+  "primary": #2b2257,
+  "danger": #ff4136,
+  "background-sec":#bfbfbf,
+  "secondary":#817e95,
+  "third":#ad8266,
+  "fourth":#315438
+);
+h5{
+  color:#ad8266
+}
+
+
+$font-size-base:1rem;
+$hover:#7a71a7;
+.hover:hover{
+  color:$hover;
+}
+
+.scale{
+  transition: .3s transform ease-in-out;
+}
+
+
+.text-bg-dark{
+  background-color:black;
+  font-weight: bold;
+  color:white;
+}
+
+@media screen and (max-width: 1230px) {
+  .img-sm{
+    height:50px;
+    width:auto;
+  }
+}
+.ph{
+  width:250px;
+  height:auto;
+}
+@media screen and (max-width:567px) {
+  .ph{
+    width:150px;
+    height:auto;
+  }
+}
+
+// Bootstrap and its default variables
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;900&display=swap');  
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";  
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";

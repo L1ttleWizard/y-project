@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class='text-center bg-body-tertiary py-2 text-info-emphasis'>Сборка компьютеров</h1>
+    </header>
+    <div class="container-fluid text-dark row w-100">
+        <div class="col-lg-2">
+            <div class="container align-content-center my-3 text-center bg-light sticky-top d-flex flex-lg-column mb-2"
+                style="flex-wrap:nowrap">
+                <!-- <div class=" rounded-3 img-fluid mb-lg-5 mt-lg-3 img-sm"> <img class="img-sm"
+                src="" alt=""> -->
+            </div>
+            <button class="navbar-toggler btn-outline-primary d-lg-none align-self-center sticky-top" style="margin-left:auto;"
+                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
+                aria-controls="offcanvasResponsive">Меню</button>
+            <nav class="navbar navbar-expand-lg  d-none d-lg-block bg-body-tertiary sticky-top">
+                <div class="container-fluid flex-lg-column">
+                    <div class="navbar-brand sticky-top">Меню</div>
+
+                    <button class="navbar-toggler sticky-top" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav flex-lg-column text-primary">
+                            <a class="nav-link text-primary" aria-current="page" href="#">Домой</a>
+                            <a class="nav-link text-primary" href="#processors">Процессоры</a>
+                            <a class="nav-link text-primary" href="#cards">Видеокарты</a>
+                            <a class="nav-link text-primary" href="#mother">Материнские Платы</a>
+                            <a class="nav-link text-primary" href="#operative">Оперативная память</a>
+                            <a class="nav-link text-primary" href="#drive">Диски</a>
+                            <a class="nav-link text-primary" href="#bp">Корпус, Охлаждение и Блок Питания</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="offcanvas-lg offcanvas-end " tabindex="-1" id="offcanvasResponsive"
+                aria-labelledby="offcanvasResponsiveLabel" data-bs-scroll="false">
+                <div class="offcanvas-header text-bg-dark">
+                    <h5 class="offcanvas-title " id="offcanvasResponsiveLabel">Меню</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvasResponsive" aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body text-bg-dark">
+                    <div class="navbar-nav flex-lg-column">
+                        <a class="nav-link" aria-current="page" href="#hello-sec">Домой</a>
+                        <a class="nav-link" href="#processors">Процессоры</a>
+                        <a class="nav-link" href="#cards">Видеокарты</a>
+                        <a class="nav-link" href="#mother">Материнские Платы</a>
+                        <a class="nav-link" href="#operative">Оперативная память</a>
+                        <a class="nav-link" href="#drive">Диски</a>
+                        <a class="nav-link" href="#bp">Корпус, Охлаждение и Блок Питания</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg">
+            <div class=" w-100 mx-auto" data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup" data-offset="0"
+                style="white-space:pre-wrap;">
+                <section id="processors">
+                    <h5 class="text-center">Основой любого компьютера является процессор. Существует 2 основные компании разрабатывающие процессоры для пк это Intel и AMD</h5>
+                    <h6 class="text-center">Основные характеристики на которые следует обратить внимание</h6>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p style="">
+                                    1.Количество ядер:
+                                        2 - только несложные задачи
+                                        4 ядра уже позволят играть в игры
+                                        6 и более позволят выполнять весь спектр задач
+                                    2.Часота ядра у всех современных процессоров она стартует от 4000 МГц и до 5–6 тысяч
+                                    3.Количество потоков важно чтобы был гипертейдинг т.е. 2 потока на каждое ядро
+                                    4.Графическое ядро позволяет выводить картинку на монитор без внешнего графического ускорителя
+                                    5.Также важно смотреть на букву процессора у Интел это :
+                                        f - отсутствие графического ядра
+                                        K - разблокированный множитель частот т.е. процессор можно будет разогнать
+                                        U - энергоэффективный процессор т.е. хуже производительность,но энергоэффективность выше
+                                    АMD:
+                                    G наличие встроенной графики
+                                    X разогнанные с завода процессоры
+                                    H ноутбучные процессоры</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="./imgs/proc-1.jpg" alt="Описание картинки">
+                            </div>
+                        </div>
+                        <h6 class="text-center"> Рассмотрим основные семейства процов от обоих фирм</h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="./imgs/celeron.jpg" alt="Описание изображения">
+                            </div>
+                            <div class="col-md-6">
+                                <p> 1 celeron (Intel) процессоры самого низкого уровня и ценового сегмента на данный момент не рекомендую их кпокупке т. к. они слишком слабы и будут тормозить в самой системе и простых программах
+                                    2. Pentium (Intel) / Athlon( AMD) вот это уже интереснее. Процессоры данной линейки из последних поколений уже достаточны для офисных и других нетрудных задач
+                                    3.Core i 3(Intel)/Ryzen 3 ( AMD) начиная с i 3 12100 или R 5 5200 уже могут достойно потянуть большинство игр и более требовательных задач
+                                    4.Core i 5(Intel) / Ryzen 5 ( AMD) более ещё мощные процессоры последние поколения способные потянуть любую современную игру 
+                                    5.Core i 7 и core i 9 (Intel) / Ryzen 7 и 9 ( AMD) самые мощные из того что может потребоваться дома 
+                                    6.Xeon и Threadripper это северные процессоры на которых не будем застрять внимание, однако, отмечу что б/у Xeon по типу E5 2630 можно взять в самые бюджетные игровые сборки
+                                    Также отмечу преимущество АMD в том что они редко меняют сокет в отличие от Intel т.е. при желании обновить процессор можно будет не менять мат плату 
+                                    Актуальными на данный момент являются 13 и 14 поколения Интел и 7000, и 9000 поколения у AMD</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <section id="cards">
+
+                    <h5 class="text-center">Видеокарты(дискретные)</h5>
+                    <h6 class="text-center">Тоже не менее глубокая тема чем процессоры Они нужны только для сложных графических задач по типу игр, монтажа или моделирования или же если нет граф ядра в процессоре</h6>
+                    <h6 class="text-center">Рассмотрим основные характеристики</h6>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/cards-2.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Основные характеристики</h2>
+                                <p>Частоты граф процессора для тяжёлых задач необходимо от 1800 МГц и более
+                                    Количество текстурных блоков желательно не менее 90
+                                    Наличие или отсутствие rt ядер они нужны для таких технологий как трассировка лучей
+                                    или dlss
+                                    Объем видеопамяти не менее 8 гб край 6 гб важно отметить что для игр требуется
+                                    меньше
+                                    видеопамяти но более мощный чип а для моделирования наоборот</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Охлаждение</h2>
+                                <p>Охлаждение также является важным параметром видеокарты чтобы она работала долго и
+                                    стабильно
+                                    рассмотрим только воздушное т к жидкостное больше зависит от сжо. На мощные карты
+                                    желательно
+                                    иметь 2 вентилятора и толстый радиатор</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="./imgs/cards-1.jpg" alt="Image" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/cards-3.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Цифры на коробке</h2>
+                                <p> Важно так же смотреть на цифры после серии у Nvidia и AMD
+                                    30 и 400 соответственно это карты начальные карты которые позволят поиграть во
+                                    нетребовательные
+                                    игры и так далее чем больше число тем мощней
+                                    Основными производителями являются AMD и Nvidia, Актуальными на данный момент
+                                    являются 3000 и
+                                    4000 серия Nvidia и 6000 и 7000 серии AMD
+                                    Так же есть отдельные серии по типу квадро и т.д. но они для более узких задач</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="mother">
+                    <h5 class="text-center">Материнские платы</h5>
+                    <h6 class="text-center">Материнская плата - это главная плата в компьютере, которая объединяет все другие компоненты и позволяет им работать вместе. При выборе материнской платы обратить внимание на несколько основных характеристик:</h6>
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-3.jpg" width="600" height="400" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Сокет процессора</h2>
+                                <p>Нужно убедиться, что материнская плата подходит к выбранному процессору. Разные производители процессоров используют разные сокеты.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-1.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Форм фактор</h2>
+                                <p> В зависимости от корпуса компьютера, выберите материнскую плату соответствующего размера: ATX, Micro-ATX или Mini-ITX.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-2.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Количество слотов памяти</h2>
+                                <p> Выберите материнскую плату, которая поддерживает нужное количество слотов памяти, чтобы установить все необходимые модули.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-4.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Разъемы для периферийных устройств</h2>
+                                <p>Убедитесь, что материнская плата имеет достаточное количество разъемов для подключения всех ваших устройств, таких как USB, аудио и т.д.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-5.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Звуковая карта</h2>
+                                <p> Если вы цените качество звука, то обратите внимание на наличие встроенной звуковой карты или на возможность установки отдельной.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/mother-6.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Производительность и возможности разгона</h2>
+                                <p>Если вы планируете разгонять процессор или другие компоненты, выберите материнскую плату с возможностью разгона и достаточной производительностью.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="operative">
+                    <h5 class="text-center">Оперативная память</h5>
+                    <h6 class="text-center">Характеристики Оперативной Памяти</h6>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/ram-1.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Тип памяти</h2>
+                                <p>На сегодняшний день наиболее распространены два типа памяти - DDR4 и DDR5. DDR5
+                                    является более новым и быстрым типом памяти, но требует соответствующей поддержки
+                                    процессором и материнской платой, а также является более дорогим. Поэтому для
+                                    большинства пользователей DDR4 будет достаточным.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 order-lg-2">
+                                <h2>Ёмкость памяти</h2>
+                                <p>Чем больше оперативной памяти, тем лучше, так как это позволяет работать с большим
+                                    количеством данных и программ одновременно. Минимальная ёмкость для современных
+                                    компьютеров - 8 ГБ, но для более продвинутых пользователей может потребоваться и 16,
+                                    32 или даже 64 ГБ.</p>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <img src="./imgs/ram-2.jpg" alt="Image" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/ram-3.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Частота памяти</h2>
+                                <p>Чем выше частота памяти, тем быстрее она может передавать данные между процессором и
+                                    памятью. Однако, оптимальной частотой для DDR4 является 3200 МГц. Частоты выше
+                                    данного значения не дадут значительного прироста производительности.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/ram-4.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Задержки (timings)</h2>
+                                <p> Это параметры, которые описывают задержки в доступе к памяти. Обычно задержки
+                                    описываются четырьмя параметрами: CAS latency (CL), RAS to CAS delay (tRCD), RAS
+                                    precharge time (tRP) и cycle time (tRAS). Чем меньше значения этих параметров, тем
+                                    быстрее будет работать память.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img src="./imgs/ram-5.jpg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Количество каналов</h2>
+                                <p> Если на материнской плате есть возможность использовать два модуля памяти, то лучше
+                                    всего использовать два модуля одинаковой ёмкости для использования двухканальной
+                                    конфигурации. Это позволяет увеличить пропускную способность памяти.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="drive">
+                    <h5 class="text-center">Диски</h5>
+                    <h6 class="text-center">Характеристики дисков и советы по выбору</h6>
+
+                    <ol class="">
+                        <li>Тип диска: жесткий диск (HDD) или твердотельный накопитель (SSD). SSD диски обеспечивают
+                            значительно более высокую скорость чтения и записи, а также меньший уровень шума и
+                            потребления энергии, но стоят дороже, чем HDD.</li>
+                        <li>Объем диска. Объем диска должен соответствовать вашим потребностям в хранении данных. Для
+                            большинства пользователей, включая геймеров, вполне достаточно 1-2 ТБ. Однако, если вам
+                            требуется хранить большое количество видео, фотографий или других файлов, то может
+                            потребоваться больший объем диска.</li>
+                        <li>Форм-фактор. Форм-фактор диска должен соответствовать форм-фактору материнской платы
+                            компьютера. Наиболее распространенные форм-факторы HDD - 3,5 дюйма, а для SSD - 2,5 дюйма
+                            или M.2.</li>
+
+                    </ol>
+                    <div class="row">
+                        <div class="col-lg-6"><img src="./imgs/drive-1.jpg" alt="" class="img-fluid"></div>
+                        <div class="col-lg-6"><img src="./imgs/drive-2.jpg" alt="" class="img-fluid"></div>
+                    </div>
+                    <h6 class="text-center">Советы по выбору диска для компьютера:</h6>
+                    <ul>
+                        <li>Приобретайте SSD диск для операционной системы и программ, которые вы часто используете. Это
+                            значительно повысит скорость работы вашей системы.</li>
+                        <li>Если вам требуется большой объем хранения данных, купите HDD диск с большим объемом памяти и
+                            храните на нем все ваши файлы.</li>
+                        <li>Убедитесь, что форм-фактор диска соответствует форм-фактору материнской платы.</li>
+                        <li>Проверьте скорость чтения и записи диска, особенно если вы собираетесь использовать его для
+                            работы с большими файлами или для игр.</li>
+                    </ul>
+                </section>
+                <section id="bp">
+                    <h5 class="text-center">Корпус, Охлаждение и блок питания</h5>
+                    <h6 class="text-center">Комментарий от автора:</h6>
+                    <p>Про блок могу сказать 
+                        1.Необходимо брать только блоки от проверенных производителей с высокой надёжностью 
+                        2.Брать запас по мощности блока 100 - 200 ватт от общего потребления системы 
+                        3.Желательно чтобы блок имел сертификацию по типу бронза 80 или выше 
+                        4.Смотреть кабели что выходят из блока чтобы они соответствовали разъёмам на комплектующих 
+                        5.Не стоит экономить на бп т.к плохой бп может унести за собой в могилу весь пк 
+                    Охлаждение делится на жидкостное и воздушное 
+                    Жидкостное стоит применять только в дорогих сборках и брать надёжные системы чтобы они не залили пк 
+                    Воздушное обычно применяется в более дешёвых сборках и зависит от продуваемости корпуса 
+                    Из важных показателей для обоих видов 
+                        1.Отвод тепла необходимо иметь запас по отводу по сравнению с выделением минимум 50 ватт 
+                        2.Разъём крепления необходимо сверить с разъёмами на остальных комплектующих 
+                    Корпус 
+                        1.Должен соответствовать размеру  всех комплектующих чтобы они в него влезли 
+                        2.Должен иметь хорошую продуваемость чтобы детали не чувствовали себя как в бане 
+                        3.Вентиляторы желательно установить на передней панели 2 на вдув, сзади 1 на выдув. Если есть возможность поставить ещё пару вентиляторов сверху.
+</p>
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Домой</a></li>
+                <li class="nav-item"><a href="#processors" class="nav-link px-2 text-muted">Процессоры</a></li>
+                <li class="nav-item"><a href="#cards" class="nav-link px-2 text-muted">Видеокарты</a></li>
+                <li class="nav-item"><a href="#mother" class="nav-link px-2 text-muted">Материнские Платы</a></li>
+                <li class="nav-item"><a href="#operative" class="nav-link px-2 text-muted">Оперативная память</a></li>
+                <li class="nav-item"><a href="#drive" class="nav-link px-2 text-muted">Диски</a></li>
+                <li class="nav-item"><a href="#bp" class="nav-link px-2 text-muted">Корпус, Охлаждение и блок
+                        питания</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2023 Yaroslav, Inc</p>
+        </footer>
+    </div>
+</body>
+
+</html>

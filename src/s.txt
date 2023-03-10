@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сборка компьютеров</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container align-content-center my-3 text-center bg-light sticky-top d-flex flex-lg-column mb-2">
+        <div class="col-lg-2 ">
+            <div class="container align-content-center my-3 text-center bg-light sticky-top d-flex flex-lg-column mb-2"
+                style="flex-wrap:nowrap">
+                <!-- <div class=" rounded-3 img-fluid mb-lg-5 mt-lg-3 img-sm"> <img class="img-sm"
+                    src="" alt=""> -->
+            </div>
+            <button class="navbar-toggler btn-outline-primary d-lg-none align-self-center" style="margin-left:auto;"
+                type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
+                aria-controls="offcanvasResponsive">Меню</button>
+            <nav class="navbar navbar-expand-lg  d-none d-lg-block bg-body-tertiary">
+                <div class="container-fluid flex-lg-column">
+                    <div class="navbar-brand">Меню</div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav flex-lg-column text-primary">
+                            <a class="nav-link text-primary" aria-current="page" href="#hello-sec">Домой</a>
+                            <a class="nav-link text-primary" href="#what-we-do-sec">Процессоры</a>
+                            <a class="nav-link text-primary" href="#about-sec">Видеокарты</a>
+                            <a class="nav-link text-primary" href="#contacts-sec">Материнские Платы</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="offcanvas-lg offcanvas-end " tabindex="-1" id="offcanvasResponsive"
+                aria-labelledby="offcanvasResponsiveLabel" data-bs-scroll="false">
+                <div class="offcanvas-header text-bg-dark">
+                    <h5 class="offcanvas-title " id="offcanvasResponsiveLabel">Меню</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        data-bs-target="#offcanvasResponsive" aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body text-bg-dark">
+                    <div class="navbar-nav flex-lg-column">
+                        <a class="nav-link" aria-current="page" href="#hello-sec">Домой</a>
+                        <a class="nav-link" href="#what-we-do-sec">Процессоры</a>
+                        <a class="nav-link" href="#about-sec">Видеокарты</a>
+                        <a class="nav-link" href="#contacts-sec">Материнские Платы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg">
+        <div></div>
+        <p>Основой любого компьютера является процессор. Существует 2 основные компании разрабатывающие процессоры для пк это Intel и AMD
+            Основные характеристики на которые следует обратить внимание
+            1.Количество ядер:
+                2 - только несложные задачи
+                4 ядра уже позволят играть в игры
+                6 и более позволят выполнять весь спектр задач
+            2.Часота ядра у всех современных процессоров она стартует от 4000 МГц и до 5–6 тысяч
+            3.Количество потоков важно чтобы был гипертейдинг т.е. 2 потока на каждое ядро
+            4.Графическое ядро позволяет выводить картинку на монитор без внешнего графического ускорителя
+            5.Так-же важно смотреть на букву процессора у Интел это :
+                f - отсутствие графического ядра
+                K - разблокированный множитель частот т е процессор можно будет разогнать
+                U энерго эффективный процессор те хуже производительность но ниже энергоэффективность выше
+            АMD:
+                G наличие встроенной графики
+                X разогнанные с завода процессоры
+                H ноутбучные процессоры
+            Рассмотрим основные семейства процов от обоих фирм:
+            1 celeron (Intel) процессоры самого низкого уровня и ценового сегмента на данный момент не рекомендую их к
+            покупке т. к. они слишком слабы и будут тормозить в самой системе и простых программах
+            2. Pentium (Intel) / Athlon( AMD) вот это уже интереснее. Процессоры данной линейки из последних поколений уже
+            достаточны для офисных и других нетрудных задач
+            3.Core i 3(Intel)/Ryzen 3 ( AMD) начиная с i 3 12100 или R 5 5200 уже могут достойно потянуть большинство
+            игр и более требовательных задач
+            4.Core i 5(Intel) / Ryzen 5 ( AMD) более ещё мощные процессоры последние поколения способные потянуть любую
+            современную игру
+            5.Core i 7 и core i 9 (Intel) / Ryzen 7 и 9 ( AMD) самые мощные из того что может потребоваться дома
+            6.Xeon и Threadripper это северные процессоры на которых не будем застрять внимание, однако, отмечу что б/у
+            Xeon по типу E5 2630 можно взять в самые бюджетные игровые сборки
+            Также отмечу преимущество АMD в том что они редко меняют сокет в отличие от Intel т е при желании обновить
+            процессор можно будет не менять мат плату
+            Актуальными на данный момент являются 13 и 14 поколения Интел и 7000, и 9000 поколения у AMD
+</p>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
